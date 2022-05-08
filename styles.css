@@ -4,9 +4,8 @@
 
 }
 .header-text{
-    position: absolute;
-    top: 50%;
-    width:fit-content;
     display: flex;
     justify-content: center;
+    top: 25%;
+
 }
