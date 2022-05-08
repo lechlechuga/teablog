@@ -1,0 +1,12 @@
+.hero-background{
+    width: 100vw;
+    position: relative;
+
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+}
