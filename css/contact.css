@@ -8,6 +8,11 @@ textarea {
     display: block;
     width: 100%;
 }
+
+.conact-header{
+    justify-content: center;
+    text-align: center;
+}
 ul {
     list-style: none;
     margin: 0;
