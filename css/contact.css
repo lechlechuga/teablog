@@ -9,8 +9,8 @@ textarea {
     width: 100%;
 }
 
-.conact-header{
-    justify-content: center;
+.contact-header{
+    margin-top: 4rem;
     text-align: center;
 }
 ul {
