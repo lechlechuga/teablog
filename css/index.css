@@ -1,4 +1,17 @@
-
+.navbar{
+  position: absolute;
+  background: transparent;
+}
+.nav-bar-logo{
+  height: 2.5rem;
+  width: 2rem;
+}
+.hero-text{
+  position: absolute;
+  background: transparent;
+  margin-top: 10%;
+  margin-left: 30%;
+}
 .hero-background{
     width: 100vw;
     height: 100%;

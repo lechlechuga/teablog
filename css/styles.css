@@ -5,8 +5,26 @@ h1,h2{
     text-align: center;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   }
-  
-  
+  /* NAVBAR styling */
+  .nav-bar-logo{
+    height: 2.5rem;
+    width: 2rem;
+  }
+
+  /* FOOTER styling */
+.footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #567568;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* HOME PAGE styling for grid */
   .container {
     display: grid;
     grid-template-columns: 0.4fr 0.3fr 0.3fr;
@@ -34,15 +52,15 @@ h1,h2{
 
   
   .hero {
-    grid-column: 1 / 2;
-    grid-row-start: 2 / 3;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
     background-color: #d5c9e2;
     min-height: 300px;
   }
   
   .sidebar {
-    grid-column: 2 / 4;
-    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    grid-row-start: 2 / 3;
     min-height: 400px;
     background-color: #a0c263;
   }
@@ -82,19 +100,13 @@ h1,h2{
       
 
 
-
+/* ABOUT PAGE styles */
 .accordion{
   background-color: orange;
 }
 
-
-/* FOOTER styling */
-.footer {
-  position:fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #567568;
-  color: white;
-  text-align: center;
+.about-icons{
+  height: 10rem;
+  width: 10rem;
 }
+
