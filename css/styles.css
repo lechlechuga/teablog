@@ -24,7 +24,14 @@ h1,h2{
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     background-color: #ffff;
-  }
+    }
+        @media only screen and (min-width: 768px) {
+          /* Medium devices (landscape tablets, 768px and up) */
+          .header{
+            visibility: hidden;
+          }
+        }
+
   
   .hero {
     grid-column: 1 / 2;
