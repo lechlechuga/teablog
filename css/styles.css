@@ -1,3 +1,8 @@
+h1,h2{
+  font-family: 'Paprika', cursive;
+}
+
+
 .container{
   margin-top: 8rem;
 }
@@ -13,7 +18,7 @@
 
 
 .footer {
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -25,6 +30,10 @@
 .blog-feature{
   height: 40%;
   width: 100%;
+  margin-top: 2rem;
+}
+#more {
+  display: none;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -37,4 +46,10 @@
       height: fit-content;
     }
   }
+}
+
+
+
+.accordion{
+  background-color: orange;
 }
