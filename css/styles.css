@@ -1,6 +1,9 @@
-h1,h2{
+h1,h2, h3{
   font-family: 'Paprika', cursive;
   color: black;
+}
+h3{
+  font-size: medium;
 }
 p{
   color: #444;
@@ -124,4 +127,20 @@ p{
   height: 10rem;
   width: 10rem;
 }
+details > summary {
+  list-style-type:circle;
+}
 
+details[open] > summary {
+  list-style-type:circle;
+}
+
+details {
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
