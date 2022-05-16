@@ -192,6 +192,7 @@ details[open] > summary {
   .footer{
   text-align:left;
   padding:5%;
+  height: max-content;
   }
   .footer .row ul li{
   display:block;
