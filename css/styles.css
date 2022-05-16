@@ -68,7 +68,7 @@ p{
     grid-column: 1 / 2;
     grid-row-start: 2 / 3;
     min-height: 400px;
-    background-color: #a0c263;
+    background-color: #fff;
   }
   
   @media only screen and (max-width: 768px) {
